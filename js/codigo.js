@@ -36,5 +36,9 @@ window.onload = function() {
         bgadj();
   
     }
-  
+ 
+// Boton movil de barra de navegacion 
+$(".button-collapse").sideNav();
+// Fin de botton movil
 }
+

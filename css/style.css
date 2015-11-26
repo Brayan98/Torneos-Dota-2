@@ -12,3 +12,28 @@ body{
    height: auto;
    z-index: -1000;
 }
+header{
+	  overflow-x: visible;
+}
+nav{
+	background-color:rgba(16,20,26,0.4);
+	box-shadow:5px #888;
+}
+.inicio2{
+	background-color: red;
+	margin-top: 100%;
+}
+.botones{
+	margin-right: 500px;
+}
+#logo{
+	margin-right: 18% !important;
+	position: static;
+}
+@media (max-width: 1121px) {
+.botones{
+	margin-right: 0px;
+}
+#logo{
+	margin-right: 18% !important;
+   }

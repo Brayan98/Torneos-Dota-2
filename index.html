@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
 	<title>Dota 2 Colombia</title>
 	<!-- iconos de google -->
@@ -10,14 +11,34 @@
   <script type="text/javascript" src="js/codigo.js"></script>
 </head>
 <body>
-  <div class="inicio" onload="bgadj();">
-      <video id="video" autoplay="autoplay" preload="auto" loop="loop">
-           <source src="videos/videofondo.mp4" type="video/mp4"></source>
-         <source src="videos/videofondo.ogv" type="video/ogv"></source>
-      </video>
-            <h1>Hola Mundo</h1>
-    <p>Esto es una prueba para que el puto video quede de fondo</p>
-</div> 
+  <header onload="bgadj();">
+    <!-- Video de fondo -->
+    <video id="video" autoplay="autoplay" preload="auto" loop="loop">
+    <source src="videos/videofondo.mp4" type="video/mp4"></source>
+    <source src="videos/videofondo.ogv" type="video/ogv"></source>
+    </video>
+    <!-- Fin de Video sin fondo -->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo" id="logo">Torneos Dota2</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <div class="botones">
+        <li><a href="">Inicio</a></li>
+        <li><a href="">Torneos</a></li>
+        <li><a href="">Unete!</a></li>
+        <li><a href=""><i class="material-icons">account_circle</i></a></li>
+        </div>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="">Inicio</a></li>
+        <li><a href="">Torneos</a></li>
+        <li><a href="">Unete!</a></li>
+        <li><a href=""><i class="material-icons">account_circle</i></a></li>
+      </ul>
+    </div>
+  </nav>
+  </header> 
 <!-- Importacion de materialize jquery -->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
