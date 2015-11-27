@@ -16,12 +16,12 @@ header{
 	  overflow-x: visible;
 }
 nav{
-	background-color:rgba(16,20,26,0.4);
+	background-color:rgba(16,20,26,0.8);
 	box-shadow:5px #888;
 }
-.inicio2{
-	background-color: red;
-	margin-top: 100%;
+.unete{
+	background-color:rgba(16,20,26,0.7);
+	margin-top: 5%;
 }
 .botones{
 	margin-right: 500px;
@@ -37,3 +37,20 @@ nav{
 #logo{
 	margin-right: 18% !important;
    }
+
+
+/*ESTILOS DEL FORMULARIO*/
+#boton_lider{
+	text-align: center;
+	margin-left: 50%;
+}
+.lider{
+	margin-left: 50%;
+}
+#enviar{
+	background-color:rgba(16,20,26,0.7);
+}
+#enviar :hover {
+	background-color:rgba(16,20,26,0.7);
+}
+/*FIN ESTILOS DEL FORMULARIO*/
