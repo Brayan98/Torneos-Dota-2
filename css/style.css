@@ -47,10 +47,10 @@ nav{
 .lider{
 	margin-left: 50%;
 }
-#enviar{
+button{
 	background-color:rgba(16,20,26,0.7);
 }
-#enviar :hover {
+.enviar button :hover {
 	background-color:rgba(16,20,26,0.7);
 }
 /*FIN ESTILOS DEL FORMULARIO*/
